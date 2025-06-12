@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "vibes-react-native-expo-example",
+    "slug": "vibes-react-native-expo-example",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "_comment": "For local development we use '../app.plugin.js'. End users should use 'vibes-react-native-expo' instead.",
+    "plugins": [
+      "../app.plugin.js"
+    ],
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vibes.push.test.rn",
+      "infoPlist": {
+        "VibesAppId": "5ff356c8-4e6e-442e-829d-7cfdfe9933a3",
+        "VibesApiURL": "https://public-api-uatus0.vibescm.com/mobile_apps"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "config": {
+        "googleServicesFile": "./google-services.json"
+      },
+      "package": "com.vibes.push.test.rn",
+      "manifestPlaceholders": {
+        "vibesAppId": "3344c960-f53b-43d5-9b3a-2b4498703ef3",
+        "vibesApiUrl": "https://public-api-uatus0.vibescm.com/mobile_apps"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
