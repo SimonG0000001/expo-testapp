@@ -9,7 +9,7 @@
     "newArchEnabled": true,
     "_comment": "For local development we use '../app.plugin.js'. End users should use 'vibes-react-native-expo' instead.",
     "plugins": [
-      "../app.plugin.js"
+      "vibes-react-native-expo"
     ],
     "splash": {
       "image": "./assets/splash-icon.png",
